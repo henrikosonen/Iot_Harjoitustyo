@@ -1,0 +1,11 @@
+nämä pitää asentaa
+Pip3
+Npm
+
+
+pitää varmaan ajaa
+pip3 install pyserial
+pip3 install mysql-connector
+
+ja tämä pitää ajaa api/ kansiossa
+npm install

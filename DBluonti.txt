@@ -1,0 +1,16 @@
+CREATE DATABASE liikennevalot;
+
+CREATE  TABLE ilma (
+  id INT(11)  AUTOINCREMENT NOT NULL,
+  punainen TINYINT(1),
+  vihrea TINYINT(1),
+  PRIMARY KEY (id));
+  
+  CREATE  TABLE valot (
+  id INT(11)  AUTOINCREMENT NOT NULL,
+  aika TIME,
+  lampo FLOAT,
+  kosteus FLOAT,
+  PRIMARY KEY (id));
+  
+  
